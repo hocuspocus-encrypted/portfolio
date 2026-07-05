@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibhavan Saibuvis — Computer Science Graduate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="reticle"></div>
+<div id="reticle-dot"></div>
+
+<nav>
+  <div class="logo">VS<span>.</span></div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section id="hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="wrap hero-inner">
+    <div class="hero-tag"><span class="blip"></span> SYSTEM ONLINE — OSHAWA, ON → DUBAI, UAE</div>
+    <h1 class="name">VIBHAVAN<span class="last">SAIBUVIS</span></h1>
+    <div class="hero-role">
+      Computer Science graduate specializing in Data Analysis &amp; Applied AI — building RAG pipelines, computer vision systems, and full-stack applications.<span class="cursor-blink"></span>
+    </div>
+    <div class="hero-labels" id="hero-labels">
+      <span class="det-label">COMPUTER_VISION · 0.97</span>
+      <span class="det-label">RAG_PIPELINES · 0.95</span>
+      <span class="det-label">FULL_STACK · 0.93</span>
+      <span class="det-label">DATA_ANALYSIS · 0.96</span>
+    </div>
+  </div>
+  <div class="scroll-cue"><div class="line"></div> SCROLL</div>
+</section>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="eyebrow" style="margin-bottom:0;">01 / ABOUT</div>
+    <div class="about-body reveal">
+      <h2 class="section-title" style="margin-bottom:26px;">Professional summary</h2>
+      <p>Computer Science graduate from Ontario Tech University specializing in Data Analysis and Applied AI, with hands-on experience building LLM-powered applications using RAG, computer vision pipelines, and mobile apps. Experienced in analysing large datasets using Python, Pandas, Matplotlib, and Seaborn, and in delivering projects end-to-end. A strong communicator and creative team player, ready to bring technical depth and a fresh perspective to a dynamic role.</p>
+      <div class="about-meta">
+        <div class="meta-item"><div class="k">Location</div><div class="v">Dubai, UAE</div></div>
+        <div class="meta-item"><div class="k">Education</div><div class="v">B.Sc. Computer Science (Honours)</div></div>
+        <div class="meta-item"><div class="k">Graduated</div><div class="v">April 2026</div></div>
+        <div class="meta-item"><div class="k">Languages</div><div class="v">English (Fluent) · Tamil (Native)</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="eyebrow reveal">02 / PROJECTS</div>
+    <h2 class="section-title reveal" style="margin-bottom:50px;">Detected work</h2>
+    <div class="project-list" id="project-list">
+
+      <div class="project-card reveal">
+        <div class="corner-bl"></div><div class="corner-br"></div>
+        <div class="proj-id"><span class="num">01</span>DET</div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <div class="proj-title">CentSora</div>
+            <div class="conf-tag">conf: 0.97</div>
+          </div>
+          <div class="proj-desc">A full-stack budgeting application built collaboratively with a Vue 3 + Vite + Bootstrap frontend and a Node.js/Express REST API backed by SQLite. Features session-based authentication, transaction tracking, category budgets, savings goals, and D3.js dashboard visualizations.</div>
+          <div class="proj-tags"><span>Vue 3</span><span>Vite</span><span>Bootstrap</span><span>Node.js</span><span>Express</span><span>SQLite</span><span>D3.js</span></div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="corner-bl"></div><div class="corner-br"></div>
+        <div class="proj-id"><span class="num">02</span>DET</div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <div class="proj-title">YOLOv8 vs Faster R-CNN</div>
+            <div class="conf-tag">conf: 0.99</div>
+          </div>
+          <div class="proj-desc">A controlled comparison of one-stage and two-stage object detectors on the GTSDB traffic sign dataset. Built an end-to-end pipeline covering preprocessing, transfer learning, and evaluation across mAP, FPS, and failure analysis.</div>
+          <div class="proj-tags"><span>YOLOv8</span><span>Faster R-CNN</span><span>Transfer Learning</span><span>Python</span><span>Computer Vision</span></div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="corner-bl"></div><div class="corner-br"></div>
+        <div class="proj-id"><span class="num">03</span>DET</div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <div class="proj-title">Quizzr</div>
+            <div class="conf-tag">conf: 0.95</div>
+          </div>
+          <div class="proj-desc">An LLM-powered study assistant that converts course notes into structured quizzes using Retrieval-Augmented Generation, with integrated safety guardrails and automated offline evaluation to keep outputs reliable and grounded.</div>
+          <div class="proj-tags"><span>LLMs</span><span>RAG</span><span>NLP</span><span>Python</span></div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="corner-bl"></div><div class="corner-br"></div>
+        <div class="proj-id"><span class="num">04</span>DET</div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <div class="proj-title">Exo Rentals</div>
+            <div class="conf-tag">conf: 0.94</div>
+          </div>
+          <div class="proj-desc">A luxury car rental mobile application with a seamless user experience and efficient management controls, built with Flutter and Firebase Firestore for real-time data handling.</div>
+          <div class="proj-tags"><span>Flutter</span><span>Dart</span><span>Firebase</span><span>Android Studio</span></div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="corner-bl"></div><div class="corner-br"></div>
+        <div class="proj-id"><span class="num">05</span>DET</div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <div class="proj-title">Global Air Quality Index Analysis</div>
+            <div class="conf-tag">conf: 0.93</div>
+          </div>
+          <div class="proj-desc">An in-depth analysis of global air quality metrics to identify pollution trends, using Python, Pandas, Matplotlib, and Seaborn in Jupyter Notebooks.</div>
+          <div class="proj-tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="eyebrow reveal">03 / SKILLS</div>
+    <h2 class="section-title reveal" style="margin-bottom:50px;">Toolset</h2>
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <div class="k">Programming Languages</div>
+        <div class="tag-cloud"><span>JavaScript</span><span>Python</span><span>Java</span><span>C++</span><span>HTML</span><span>CSS</span><span>Dart</span><span>SQL</span><span>R</span></div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="k">Frameworks &amp; Tools</div>
+        <div class="tag-cloud"><span>Git</span><span>React.js</span><span>Firebase</span><span>PostgreSQL</span><span>Pandas</span><span>NumPy</span><span>Flutter</span><span>Power BI</span><span>Jakarta EE</span><span>Blender</span></div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="k">AI / ML</div>
+        <div class="tag-cloud"><span>LLMs</span><span>RAG Pipelines</span><span>YOLOv8</span><span>Faster R-CNN</span><span>Computer Vision</span><span>NLP</span><span>Transfer Learning</span></div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="k">Soft Skills</div>
+        <div class="tag-cloud"><span>Creative Problem Solving</span><span>Data-Driven Thinking</span><span>Team Collaboration</span><span>Project Management</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="wrap">
+    <div class="eyebrow reveal">04 / TIMELINE</div>
+    <h2 class="section-title reveal" style="margin-bottom:50px;">Education &amp; involvement</h2>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-date">APRIL 2026</div>
+        <div class="tl-role">B.Sc. Computer Science (Honours)</div>
+        <div class="tl-org">Ontario Tech University — Oshawa, Ontario, Canada</div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-date">2024 — 2025</div>
+        <div class="tl-role">VP of Marketing</div>
+        <div class="tl-org">Ontario Tech Poets Society</div>
+        <div class="tl-desc">Managed social media content, event promotions, and digital engagement across platforms.</div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-date">2023 — 2024</div>
+        <div class="tl-role">Graphic Designer</div>
+        <div class="tl-org">Ontario Tech Malayalees</div>
+        <div class="tl-desc">Designed event posters, invitations, and digital assets for social media campaigns.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow reveal">05 / CONTACT</div>
+    <div class="contact-inner reveal">
+      <div class="contact-title">Let's build something <span class="accent-word">worth detecting.</span></div>
+      <div class="contact-links">
+        <a href="mailto:vibhavansaibuvis@gmail.com">vibhavansaibuvis@gmail.com</a>
+        <a href="tel:+12896714220">+1 (289) 671-4220</a>
+        <!-- TODO: replace # with your actual GitHub profile URL -->
+        <a href="#" id="github-link">GitHub</a>
+        <!-- TODO: replace # with your actual LinkedIn profile URL -->
+        <a href="#" id="linkedin-link">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 VIBHAVAN SAIBUVIS</div>
+    <div>BUILT WITH VANILLA JS — NO FRAMEWORK DETECTED</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
